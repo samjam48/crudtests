@@ -1,0 +1,26 @@
+{
+  "name": "simplepassport",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc jasmine",
+    "dev": "set DEBUG=express:* & nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "body-parser": "^1.15.2",
+    "colors": "^1.1.2",
+    "express": "^4.14.0",
+    "jasmine": "^2.5.2",
+    "mongodb": "^2.2.10",
+    "mongoose": "^4.6.3",
+    "nodemon": "^1.11.0"
+  },
+  "devDependencies": {
+    "jasmine": "^2.5.2",
+    "supertest": "^2.0.1"
+  }
+}
