@@ -1,4 +1,4 @@
-# A simple app so save and show a list of people with age
+# A simple app to save and show a list of people with age
 
 Following TDD methodology build a full CRUD app in which you save new people, delete them,
 show them all and update them.
